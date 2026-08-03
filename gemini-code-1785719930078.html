@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balázs Tekse | Portfolio & Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #1e3a8a;
+            --primary-green: #10b981;
+        }
+        .text-custom-blue { color: var(--primary-blue); }
+        .text-custom-green { color: var(--primary-green); }
+        .bg-gradient-custom { background: linear-gradient(135deg, #1e3a8a 0%, #10b981 100%); }
+        html { scroll-behavior: smooth; }
+        .hover-card { transition: all 0.3s ease; }
+        .hover-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <a href="#home" class="text-2xl font-bold text-custom-blue">Balázs Tekse</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#about" class="text-gray-600 hover:text-custom-green font-medium transition">About Me</a>
+                    <a href="#experience" class="text-gray-600 hover:text-custom-green font-medium transition">Experience</a>
+                    <a href="#skills" class="text-gray-600 hover:text-custom-green font-medium transition">Skills</a>
+                    <a href="#portfolio" class="text-gray-600 hover:text-custom-green font-medium transition">Portfolio</a>
+                    <a href="#contact" class="text-gray-600 hover:text-custom-green font-medium transition">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="bg-gradient-custom text-white pt-32 pb-20 md:mt-10">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-12">
+            <div class="md:w-2/3 text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Balázs Tekse</h1>
+                <h2 class="text-2xl md:text-3xl font-light mb-6 text-green-100">Virtual Assistant & SEO Specialist</h2>
+                <p class="text-lg mb-8 max-w-2xl text-blue-50 leading-relaxed">
+                    With over 7 years of customer-focused and technical sales experience, I am pivoting towards the digital space. My goal is to support businesses with remote work, utilizing the possibilities provided by artificial intelligence and professional web solutions.
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="#contact" class="bg-white text-custom-blue font-bold px-8 py-3 rounded-full hover:bg-gray-100 transition shadow-lg">Contact Me</a>
+                    <a href="https://www.linkedin.com/in/tekse-bal%C3%A1zs-a47937254/?skipRedirect=true" target="_blank" class="bg-transparent border-2 border-white text-white font-bold px-8 py-3 rounded-full hover:bg-white hover:text-custom-blue transition shadow-lg">
+                        <i class="fab fa-linkedin mr-2"></i> LinkedIn Profile
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/3 flex justify-center">
+                <div class="relative group mt-10 md:mt-0">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-green-400 to-blue-400 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-500"></div>
+                    <img src="kepek/profil.jpg" alt="Balázs Tekse" class="relative rounded-full w-56 h-56 md:w-72 md:h-72 object-cover border-4 border-white shadow-2xl z-10">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-custom-blue border-b-4 border-custom-green pb-2 inline-block">About Me</h2>
+            <div class="text-gray-600 text-lg leading-relaxed space-y-6">
+                <p>
+                    I am a junior yet highly dedicated digital professional, bringing a systems-thinking approach, creative problem-solving, and excellent tolerance for monotonous tasks from my background in sales and the industrial sector. I am not afraid of technical challenges; I am well-versed in generating content and optimizing workflows based on the latest AI models (ChatGPT, Gemini, Jasper).
+                </p>
+                <p>
+                    Recently, I have consciously retrained myself: I have completed several online courses on Coursera, ensuring I can support everything from WordPress website creation and SEO optimization to virtual assistant tasks with solid, practical knowledge. Given a free hand, I strive to deliver the most efficient solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-custom-blue border-b-4 border-custom-green pb-2 inline-block">Professional Experience</h2>
+            <div class="space-y-8">
+                <!-- Bárdi -->
+                <div class="bg-white p-6 rounded-xl shadow-sm hover-card border-l-4 border-custom-blue">
+                    <h3 class="text-xl font-bold text-gray-800">Auto Parts Salesperson</h3>
+                    <div class="text-custom-green font-semibold mb-2">Bárdi Autó Zrt. | Dec 2019 - Nov 2022</div>
+                    <p class="text-gray-600">
+                        Intensive daily B2B and B2C customer communication, sales, cash handling, and continuous inventory management. This is where I learned rapid crisis management and precise, immediate assessment of customer needs.
+                    </p>
+                </div>
+                <!-- K&V -->
+                <div class="bg-white p-6 rounded-xl shadow-sm hover-card border-l-4 border-custom-blue">
+                    <h3 class="text-xl font-bold text-gray-800">Mechanic (Buses & Trucks)</h3>
+                    <div class="text-custom-green font-semibold mb-2">K&V International Transport Kft. | Dec 2022 - Feb 2023</div>
+                    <p class="text-gray-600">
+                        Complex technical tasks, maintenance of heavy-duty vehicles, buses, and passenger cars. Thanks to my quick learning ability, I gained extensive practical experience in servicing and technical problem-solving.
+                    </p>
+                </div>
+                <!-- Bosch -->
+                <div class="bg-white p-6 rounded-xl shadow-sm hover-card border-l-4 border-custom-blue">
+                    <h3 class="text-xl font-bold text-gray-800">Machine Operator, Line Loader, Miller</h3>
+                    <div class="text-custom-green font-semibold mb-2">Robert Bosch Automotive | Jan 2015 - Nov 2019</div>
+                    <p class="text-gray-600">
+                        Manufacturing and logistics tasks, warehouse raw material procurement. In this position, I deepened the skills necessary for teamwork and effectively managing small groups.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills and Education -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-custom-blue border-b-4 border-custom-green pb-2 inline-block">Skills & Education</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Soft & Hard Skills -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-700"><i class="fas fa-laptop-code text-custom-green mr-2"></i> Core Competencies</h3>
+                    <ul class="space-y-4 text-lg">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-custom-green mr-3"></i> <span>WordPress website building and management</span></li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-custom-green mr-3"></i> <span>Search Engine Optimization (SEO) with AI support</span></li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-custom-green mr-3"></i> <span>Professional use of Large Language Models (LLMs)</span></li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-custom-green mr-3"></i> <span>Creative brand design with Canva</span></li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-custom-green mr-3"></i> <span>High stress tolerance, autonomy, and quick learning</span></li>
+                    </ul>
+                </div>
+                
+                <!-- Szakmai Végzettségek -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-700"><i class="fas fa-graduation-cap text-custom-green mr-2"></i> Education</h3>
+                    <div class="bg-gray-50 p-5 rounded-lg shadow-sm border border-gray-100 mb-6">
+                        <h4 class="font-bold text-gray-800 text-lg">Vocational Qualifications</h4>
+                        <p class="text-gray-600 mt-2">Electrician (2025) • Car Mechanic (2020-2022) • Waiter (2011)</p>
+                    </div>
+                    <div class="bg-gray-50 p-5 rounded-lg shadow-sm border border-gray-100">
+                        <h4 class="font-bold text-gray-800 text-lg">Online Courses (Coursera)</h4>
+                        <ul class="text-gray-600 mt-2 space-y-2 list-none">
+                            <li><i class="fas fa-angle-right text-custom-green mr-2"></i>Content Marketing Strategy</li>
+                            <li><i class="fas fa-angle-right text-custom-green mr-2"></i>Leveraging Virtual Assistants for Personal Productivity</li>
+                            <li><i class="fas fa-angle-right text-custom-green mr-2"></i>Mastering SEO with Jasper: Ranking and Optimization</li>
+                            <li><i class="fas fa-angle-right text-custom-green mr-2"></i>Build a free website with WordPress</li>
+                            <li><i class="fas fa-angle-right text-custom-green mr-2"></i>Use Canva to Create Desktop and Mobile-friendly Web Pages</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólió & Projektek -->
+    <section id="portfolio" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-custom-blue border-b-4 border-custom-green pb-2 inline-block">Portfolio & Certificates</h2>
+            <p class="text-gray-600 mb-8 text-lg">This section showcases my practical projects and certificates proving my completed training.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Tekse Kajszi Projekt -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover-card border border-gray-200">
+                    <div class="bg-gradient-custom h-40 flex items-center justify-center text-white">
+                        <i class="fas fa-leaf text-5xl opacity-90"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-lg mb-2 text-gray-800">Tekse Kajszi Branding</h3>
+                        <p class="text-gray-600 text-sm mb-4">Designing the visual foundation (2D stickers, palinka bottle labels, logo) of my own artisan brand using graphic design tools, preparing for online sales.</p>
+                    </div>
+                </div>
+
+                <!-- Tanúsítvány 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover-card border border-gray-200">
+                    <div class="bg-gray-100 h-40 flex items-center justify-center text-gray-400">
+                        <i class="fas fa-file-pdf text-5xl hover:text-custom-blue transition duration-300"></i>
+                    </div>
+                    <div class="p-6 flex flex-col justify-between h-[160px]">
+                        <div>
+                            <h3 class="font-bold text-lg mb-2 text-gray-800">WordPress & Canva Certificates</h3>
+                            <p class="text-gray-600 text-sm">Coursera Project Network</p>
+                        </div>
+                        <a href="dokumentumok/wordpress-oklevel.pdf" target="_blank" class="text-custom-green font-semibold hover:text-custom-blue mt-4 inline-block transition">View PDF <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+
+                <!-- Tanúsítvány 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover-card border border-gray-200">
+                    <div class="bg-gray-100 h-40 flex items-center justify-center text-gray-400">
+                        <i class="fas fa-file-pdf text-5xl hover:text-custom-blue transition duration-300"></i>
+                    </div>
+                    <div class="p-6 flex flex-col justify-between h-[160px]">
+                        <div>
+                            <h3 class="font-bold text-lg mb-2 text-gray-800">SEO & Jasper AI Certificate</h3>
+                            <p class="text-gray-600 text-sm">Coursera Instructor Network</p>
+                        </div>
+                        <a href="dokumentumok/seo-oklevel.pdf" target="_blank" class="text-custom-green font-semibold hover:text-custom-blue mt-4 inline-block transition">View PDF <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kapcsolat -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6 text-custom-blue">Let's Get in Touch!</h2>
+            <p class="text-gray-600 text-lg mb-10">I am open to new virtual assistant, content management, and SEO opportunities. Feel free to contact me through the details below!</p>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8 mb-12">
+                <a href="tel:+36309052885" class="flex items-center text-gray-700 hover:text-custom-blue transition text-lg font-medium">
+                    <div class="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center text-custom-blue mr-4 shadow-sm border border-blue-100">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    +36 30 905 2885
+                </a>
+                
+                <a href="mailto:nfbtekse@gmail.com" class="flex items-center text-gray-700 hover:text-custom-blue transition text-lg font-medium">
+                    <div class="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center text-custom-blue mr-4 shadow-sm border border-blue-100">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    nfbtekse@gmail.com
+                </a>
+            </div>
+
+            <a href="https://www.linkedin.com/in/tekse-bal%C3%A1zs-a47937254/?skipRedirect=true" target="_blank" class="inline-block bg-custom-blue text-white font-bold px-10 py-4 rounded-full hover:bg-blue-800 transition shadow-lg hover:shadow-xl hover:-translate-y-1 transform duration-300">
+                <i class="fab fa-linkedin mr-2 text-xl"></i> Connect on LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-10 text-center">
+        <div class="max-w-6xl mx-auto px-4">
+            <p>&copy; 2026 Balázs Tekse. All rights reserved.</p>
+            <p class="text-sm mt-2">Gyöngyös, Heves County | Ready for remote work</p>
+        </div>
+    </footer>
+
+</body>
+</html>
